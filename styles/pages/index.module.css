@@ -1,0 +1,23 @@
+.container {
+    background-color: gray;
+}
+
+.movieContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.movieList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.movieItem {
+    list-style: none;
+}

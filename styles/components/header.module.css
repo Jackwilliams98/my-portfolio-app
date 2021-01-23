@@ -1,0 +1,23 @@
+.container {
+    background-color: rgb(48, 45, 45);
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    padding: 1% 2% 1% 2%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.logoText {
+    font-size: large;
+    color: white;
+}

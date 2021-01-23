@@ -1,0 +1,20 @@
+.itemContainer {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.moviePoster {
+    max-width: 200px;
+    max-height: 200px;
+    padding-right: 10px;
+}
+
+.movieDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
