@@ -12,7 +12,9 @@ const MovieItem = ({ movie }) => {
         <li className={styles.itemContainer} key={MovieID}>
             <img 
                 className={styles.moviePoster}
-                src={`http://localhost:1337${MoviePoster}`}/>
+                // src={`http://localhost:1337${MoviePoster}`}
+                src={MoviePoster}
+                />
             <span className={styles.movieDescription}>
                 <span className={styles.movieTitle}><b>Title:</b> {MovieTitle}</span>
                 <span className={styles.movieDate}><b>Release Date:</b> {MovieReleaseDate}</span>
